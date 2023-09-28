@@ -1,0 +1,37 @@
+.modals-wrapper{
+    width: auto;
+}
+@media (max-width:992px){
+    .container{
+        max-width:960px
+    }
+    .main-menu{
+        display: none;
+        position: absolute;
+        top: 1%;
+        right: 0;
+        background-color: orange;
+        border: 1px solid black;
+    }
+    .header-area .main-header .main-menu ul li a {
+        padding: 6px 24px;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        position: unset;
+    }
+    .mobile_menu{
+        position: absolute;
+        top: -50px;
+        right: 0;
+    }
+    .header-area .main-header .main-menu ul li{
+        position: unset;
+    }
+    .submenu{
+        position: absolute;
+        right: -10%;
+        top: 10%;
+    }
+}
